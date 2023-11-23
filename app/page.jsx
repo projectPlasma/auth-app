@@ -10,4 +10,4 @@ const Home = () => {
 
 export default Home;
 
-// GTCoding => 9:41 => "Designing UI Using Tailwind CSS"
+// GTCoding => 13:16 => "Designing UI Using Tailwind CSS"

@@ -1,12 +1,13 @@
 import Link from 'next/link';
 
-const LoginForm = () => {
+const RegisterForm = () => {
   return (
     <div className='grid place-items-center h-screen'>
       <div className='shadow-lg shadow-[#FDFD96] rounded-lg border-t-4 border-t-teal-500'>
-        <h1 className='text-xl font-bold px-2 my-4'>Login</h1>
+        <h1 className='text-xl font-bold px-2 my-4'>Register</h1>
 
         <form className='flex flex-col gap-3 px-2 py-4'>
+          <input type='text' placeholder='Full Name' />
           <input type='text' placeholder='Email' />
           <input type='password' placeholder='Password' />
 
@@ -27,4 +28,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default RegisterForm;
