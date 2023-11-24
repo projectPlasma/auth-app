@@ -1,6 +1,14 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 
 const RegisterForm = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
   return (
     <div className='grid place-items-center h-screen'>
       <div className='shadow-lg shadow-[#FDFD96] rounded-lg border-t-4 border-t-teal-500'>
@@ -15,9 +23,11 @@ const RegisterForm = () => {
             Register
           </button>
 
-          <div className='bg-red-500 text-white w-fit rounded-b-md text-sm font-semibold mt-2 ml-2 py-1 px-3'>
-            Error Message
-          </div>
+          {error && (
+            <div className='bg-red-500 text-white w-fit rounded-b-md text-sm font-semibold mt-2 ml-2 py-1 px-3'>
+              {error}
+            </div>
+          )}
 
           <Link href={'/'} className='text-sm mt-3 text-right'>
             Already have an account? <span className='underline'>Login</span>
