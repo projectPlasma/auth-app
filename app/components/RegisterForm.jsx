@@ -12,15 +12,15 @@ const RegisterForm = () => {
           <input type='password' placeholder='Password' />
 
           <button className='bg-green-600 font-bold cursor-pointer px-6 py-2 rounded-full hover:bg-green-700'>
-            Login
+            Register
           </button>
 
           <div className='bg-red-500 text-white w-fit rounded-b-md text-sm font-semibold mt-2 ml-2 py-1 px-3'>
             Error Message
           </div>
 
-          <Link href={'/register'} className='text-sm mt-3 text-right'>
-            Don't have an account? <span className='underline'>Register</span>
+          <Link href={'/'} className='text-sm mt-3 text-right'>
+            Already have an account? <span className='underline'>Login</span>
           </Link>
         </form>
       </div>
