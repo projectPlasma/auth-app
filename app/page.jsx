@@ -10,4 +10,4 @@ const Home = () => {
 
 export default Home;
 
-// GTCoding => 19:28 => "Creating the API"
+// GTCoding => 42:55 => "Authentication using Next Auth"
