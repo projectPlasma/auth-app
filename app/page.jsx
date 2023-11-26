@@ -10,4 +10,4 @@ const Home = () => {
 
 export default Home;
 
-// GTCoding => 42:55 => "Authentication using Next Auth"
+// GTCoding => 54:49 => "Authentication using Next Auth"
